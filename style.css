@@ -29,7 +29,7 @@
     margin: 0;
   }
 
-.tab-buttons-other {
+.tab-buttons {
     color: white;
     text-decoration: none;
     font-size: 30px;
@@ -38,7 +38,7 @@
     background-color: grey;
   }
   
-  .tab-buttons-other:hover {
+  .tab-buttons:hover {
     color: black;
     text-decoration: underline;
     font-size: 30px;
