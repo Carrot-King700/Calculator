@@ -125,7 +125,6 @@ scene("game", () => {
     if (alive && !paused) {
       spawnBullet(player.pos)
       player.vel = player.vel.add(Vec2.fromAngle(player.angle + 180).scale(ACC * 10))
-      console.log(player.vel)
     } else {
       console.log("dead")
     }
