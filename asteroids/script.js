@@ -114,7 +114,7 @@ scene("game", () => {
     player.vel = player.vel.add(Vec2.fromAngle(player.angle).scale(ACC))
     }
   })
-
+console.log(player.vel)
 
   player.onUpdate(() => {
     player.move(player.vel)
