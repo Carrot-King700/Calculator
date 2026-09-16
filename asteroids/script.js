@@ -191,16 +191,16 @@ scene("game", () => {
     if (Math.abs(r.ROT_SPEED) > 1) r.ROT_SPEED *= 0.99
   })
 
-  // onUpdate("bullet", (r) => {
-  //   if (!r.range) {
-  //     r.range = 190
-  //   }
-  //   r.range--
-  //   if (r.range === 0) destroy(r)
-  //   r.move(r.moveVec)
-  //   r.range--
-  //   if (r.range === 0) destroy(r)
-  // })
+  onUpdate("bullet", (r) => {
+    if (!r.range) {
+      r.range = 190
+    }
+    r.range--
+    if (r.range === 0) destroy(r)
+    r.move(r.moveVec)
+    r.range--
+    if (r.range === 0) destroy(r)
+  })
 
 
   onCollide("asteroid", "bullet", (a, b) => {
