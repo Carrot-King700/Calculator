@@ -52,8 +52,10 @@ h1 {
  text-align: center;
  font-size: xx-large;
 }
- .pic {
-  border-radius: 5px;
+
+.pic {
+  display: flex;
   justify-content: center;
   align-items: center;
- }
+  border-radius: 5px;
+}
