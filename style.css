@@ -36,6 +36,7 @@
     padding: 5px;
     border-radius: 5px;
     background-color: grey;
+    display: flex;
   }
   
   .tab-buttons:hover {
@@ -45,6 +46,7 @@
     background-color: white;
     padding: 8px;
     margin: 12px;
+    display: flex;
   }
   
 h1 {
@@ -54,7 +56,6 @@ h1 {
 }
 
 .pic {
-  display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
